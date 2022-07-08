@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EX03.cpp" />
+    <ClCompile Include="getBmi.cpp" />
+    <ClCompile Include="getObesity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getBmi.h" />
+    <ClInclude Include="getObesity.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
